@@ -294,5 +294,5 @@ module_param_cb(bmp085_pres, &kp_ops, &bmp085_pres, 0660);
 MODULE_PARM_DESC(bmp085_pres, "Converted pressure value from bmp085 sensor");
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Maksim Aleksejev");
+MODULE_AUTHOR("mks-a");
 MODULE_DESCRIPTION("This module will read temperature and pressure data from BMP085 sensor and show it through sysfs.");
